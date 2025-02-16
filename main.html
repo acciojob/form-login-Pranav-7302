@@ -1,16 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset=utf-8 />
+		<title>Return first and last name from a form</title>
+		<style type="text/css">
+			body {margin: 30px;}
+		</style> 
+	<link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div class="container">
-        <input type="text" name="fname" class="fname">
-        <input type="text" name="lname" class="lname">
-        <button type="submit" id="button">Submit</button>
-    </div>
-    <script src="script.js"></script>
+	<form id="form1" onsubmit="getFormvalue()">
+		First name: <input type="text" name="fname"><br>
+		Last name: <input type="text" name="lname"><br>
+		<input type="submit" value="Submit" id='button'>
+	</form>
+	
+    <script type="text/javascript" src="./script.js">
+</script>
+
 </body>
+
 </html>
